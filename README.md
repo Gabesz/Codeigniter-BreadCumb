@@ -15,7 +15,7 @@ After model is loaded, you can add items like this:<br>
 $this->Breadcrumb->add(array('label' => 'Home', 'url' => base_url()));<br>
 $this->Breadcrumb->add(array('label' => 'Webshop', 'url' => base_url('webshop')));<br><br>
 Now you can ready to show breadcrumb in your view, just implement this line, where you want to use:<br>
-<?php $this->load->view('_partials/breadcrumb'); ?><br><br>
+$this->load->view('_partials/breadcrumb');<br><br>
 If you want to be the last element active link, you can change this line in view (_partials/breadcrumb.php):<br>
 $this->Breadcrumb->get(TRUE)<br>
 to<br>
