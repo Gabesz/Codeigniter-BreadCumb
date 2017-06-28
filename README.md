@@ -20,7 +20,7 @@ $this->Breadcrumb->add(array('label' => 'Webshop', 'url' => base_url('webshop'))
 Now you can ready to show breadcrumb in your view, just implement this line, where you want to use:<br>
 <?php $this->load->view('_partials/breadcrumb'); ?><br><br>
 
-If you want to be the last element active link, you can change this line:<br>
+If you want to be the last element active link, you can change this line in view (_partials/breadcrumb):<br>
 $this->Breadcrumb->get(TRUE)<br>
 to<br>
 $this->Breadcrumb->get(FALSE)<br>
