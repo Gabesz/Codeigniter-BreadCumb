@@ -1,4 +1,4 @@
-# Codeigniter-BreadCumb
+# Codeigniter-Breadcrumb
 Simple Breadcrumb Model for Codeigniter
 
 <h3>Requirements</h3>
